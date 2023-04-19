@@ -22,6 +22,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import metube from "./projects/metube.png";
+import interfacep from "./projects/interfacep.png";
+import guernica from "./projects/guernica.png";
+import netflix from "./projects/netflix.png";
+import srijan from "./projects/srijan.png";
+import bored from "./projects/bored.png";
+
 export {
   backend,
   web,
@@ -43,4 +50,10 @@ export {
   next,
   cs,
   bhaskar,
+  metube,
+  interfacep,
+  bored,
+  netflix,
+  guernica,
+  srijan,
 };

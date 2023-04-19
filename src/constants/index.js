@@ -10,12 +10,15 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
   next,
   bhaskar,
   cs,
+  metube,
+  interfacep,
+  bored,
+  srijan,
+  guernica,
+  netflix,
 } from "../assets";
 
 export const navLinks = [
@@ -92,7 +95,7 @@ const experiences = [
     company_name:
       "Bhaskaracharya College of Applied Sciences , Delhi University",
     icon: bhaskar,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "July 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -106,7 +109,7 @@ const experiences = [
     company_name:
       "Computer Science Department , Bhaskaracharya College of Applied Sciences , Delhi University",
     icon: cs,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Nov 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -120,33 +123,29 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I recently had the pleasure of working with Aditya, a skilled web developer who designed a website for our departmental fest. I was impressed by Aditya's attention to detail, expertise, and professionalism.He took the time to understand our requirements and delivered a visually stunning website that was both user-friendly and easy to navigate.",
+    name: "Jatin Yadav",
+    designation: "President",
+    company: "CS Department , BCAS , Delhi University",
+  },
+  {
+    testimonial: "",
+    name: "Karuna Sharma",
+    designation: " President",
+    company: "ECA , BCAS , Delhi University",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I would like to take my time to appreciate the work of the graphics team, especially Aditya Sinha (Tech-head, ECA team) for creating the website for our annual cultural fest Srijan 2023. He created a simple yet beautiful website, easy to navigate with all the information presented in a theme-based manner.",
+    name: "Satya Brat Kar",
+    designation: "Vice President",
+    company: "ECA , BCAS , Delhi University",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Srijan",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -155,7 +154,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "animatecss",
         color: "green-text-gradient",
       },
       {
@@ -163,50 +162,112 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: srijan,
+    source_code_link: "https://github.com/adityawebdev/srijan",
+    project_link: "https://srijan2k23.netlify.app",
   },
   {
-    name: "Job IT",
+    name: "Interface 2k23",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: interfacep,
+    source_code_link: "https://github.com/adityawebdev/department_fest",
+    project_link: "https://interface2k23.github.io/CS/",
+  },
+  {
+    name: "MeTube",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: metube,
+    source_code_link: "https://github.com/adityawebdev/YouTube-Clone",
+    project_link: "https://me-tube.netlify.app/",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/adityawebdev/Netflix",
+    project_link: "https://adityawebdev.github.io/Netflix/",
+  },
+  {
+    name: "Guernica",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: guernica,
+    source_code_link: "https://github.com/adityawebdev/Guernica",
+    project_link: "https://guernicaweb.netlify.app",
+  },
+  {
+    name: "Getting Bored",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
         name: "css",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bored,
+    source_code_link: "https://github.com/adityawebdev/GettingBored",
+    project_link: "https://gettingbored.netlify.app",
   },
 ];
 
